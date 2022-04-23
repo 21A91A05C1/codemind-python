@@ -1,0 +1,15 @@
+n=int(input())
+r=0
+while(n!=0):
+    k=int(input())
+    l=k
+    while(l):
+        d=l%10
+        r=r*10+d
+        l=l//10
+    if(r==k):
+        print("True")
+    else:
+        print("False")
+    n=n-1
+    r=0
