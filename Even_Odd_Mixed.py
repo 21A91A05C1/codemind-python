@@ -1,0 +1,19 @@
+n=int(input())
+j=0
+c=0
+k=0
+while(n!=0):
+    d=n%10
+    if(d%2==0):
+        c=c+1
+    elif(d%2!=0):
+        k=k+1
+    j=j+1
+    n=n//10
+if(c==j):
+    print("Even")
+elif(k==j):
+    print("Odd")
+else:
+    print("Mixed")
+    
