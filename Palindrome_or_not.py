@@ -1,0 +1,9 @@
+n=input()
+p=n.lower()
+k=n
+r=k[::-1]
+m=r.lower()
+if(p==m):
+    print("True")
+else:
+    print("False")
