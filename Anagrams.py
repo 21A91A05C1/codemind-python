@@ -1,0 +1,10 @@
+n=input()
+m=input()
+s=n.lower()
+t=m.lower()
+k=sorted(s)
+l=sorted(t)
+if(k==l):
+    print("True")
+else:
+    print("False")
