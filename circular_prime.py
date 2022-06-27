@@ -19,4 +19,3 @@ if(c==2 and z!=2):
     print("prime but not a circular prime")
 elif(c!=2):
     print("not prime")
-    
