@@ -1,8 +1,8 @@
 n=int(input())
-res=0
+temp=n
 rev=0
 c=0
-temp=n
+res=0
 while(n>0):
     d=n%10
     rev=rev*10+d
@@ -11,8 +11,8 @@ n=temp
 while(rev>0):
     d1=rev%10
     c=c+1
-    res=res+d1**c
-    rev=rev//10
+    res=res+d1**c;
+    rev=rev//10;
 if(res==temp):
     print("True")
 else:
