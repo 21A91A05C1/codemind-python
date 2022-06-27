@@ -1,3 +1,3 @@
-p,t,r=map(float,input().split())
-s=int(p*t*r)/100
-print("%d"%s)
+p,r,t=map(int,input().split())
+ci=(p*t*r)/100
+print("%d"%ci)
