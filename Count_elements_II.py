@@ -1,13 +1,13 @@
 n,m=map(int,input().split())
 l=list(map(int,input().split()))
-p=list(map(int,input().split()))
+z=list(map(int,input().split()))
 l=set(l)
-p=set(p)
+z=set(z)
 c=0
 for i in l:
-    if i not in p:
-        c+=1
-for i in p:
+    if i not in z:
+        c=c+1
+for i in z:
     if i not in l:
-        c+=1
+        c=c+1
 print(c)
