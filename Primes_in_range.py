@@ -13,4 +13,3 @@ for i in range(k,p+1):
     if(is_prime(i)):
         c+=1
 print(c)
-    
