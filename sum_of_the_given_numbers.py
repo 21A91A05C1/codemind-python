@@ -1,7 +1,7 @@
-n=int(input())
-while(n!=0):
-    a,b=map(int,input().split())
-    sum=a+b
+t=int(input())
+while(t):
+    n,m=map(int,input().split())
+    sum=0
+    sum=n+m
     print(sum)
-    n=n-1
-
+    t-=1
