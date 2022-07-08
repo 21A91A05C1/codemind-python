@@ -10,5 +10,3 @@ if(ispangram(n) == True):
    print("True")
 else:
    print("False")
-   
-  
