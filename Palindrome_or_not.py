@@ -1,9 +1,6 @@
-n=input()
-p=n.lower()
-k=n
-r=k[::-1]
-m=r.lower()
-if(p==m):
+string=input()
+s=string.lower()
+if(s==s[::-1]):
     print("True")
 else:
     print("False")
