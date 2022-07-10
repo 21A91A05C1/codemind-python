@@ -1,5 +1,7 @@
-n=input()
-words=n.split()
-for i in words:
-    vowel=sum(letter in 'aeiou' for letter in i.lower())
-    print(vowel,end=" ")
+l=list(map(str,input().split()))
+for i in l:
+    c=0
+    for j in i:
+        if j in 'aeiouAEIOU':
+            c+=1
+    print(c,end=" ")
