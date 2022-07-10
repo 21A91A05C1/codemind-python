@@ -1,3 +1,3 @@
-l=list(map(str,input().split()))
-k=l[-1]
+n=list(map(str,input().split()))
+k=n[-1]
 print(k[0])
