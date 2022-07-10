@@ -1,7 +1,4 @@
-n=input()
-k=n.split()
-p=[]
+n=list(map(str,input().split()))
+k=n[::-1]
 for i in k:
-    p.append(i[::-1])
-print(' '.join(reversed(p)))
-
+    print(i[::-1],end=" ")
