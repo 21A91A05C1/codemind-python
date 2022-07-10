@@ -15,11 +15,3 @@ for i in n:
     elif(c==min):
         d+=1
 print(d)
-
-
-
-
-
-
-
-
