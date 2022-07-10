@@ -1,8 +1,9 @@
-l=list(map(str,input().split()))
-k=[]
-for i in range(len(l)):
+n=input()
+k=n.split()
+p=[]
+for i in range(len(k)):
     if i%2==0:
-        k.append((l[i][::-1]))
+        p.append(k[i][::-1])
     else:
-        k.append(l[i])
-print( *k)
+        p.append(k[i])
+print(*p)
