@@ -18,9 +18,8 @@ for i in a1:
             if i not in arr:
                 arr.append(i)
 for j in a2:
-    if j not in a1:
+    if j not  in a1:
         if j not in arr:
             arr.append(j)
 k=sorted(arr)
 print("".join(k))
-    
