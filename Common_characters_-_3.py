@@ -13,4 +13,3 @@ if(len(s)!=0):
     print(min(s))
 else:
     print("-1")
-    
