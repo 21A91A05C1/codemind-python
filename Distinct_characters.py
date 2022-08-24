@@ -1,10 +1,15 @@
-n=(input()).lower()
-arr=[]
+n=input().lower()
+s=''
+c=0
 for i in n:
-    if i==" ":
-        continue
-    else:
-        if i not in arr:
-            arr.append(i)
-k=sorted(arr)
-print("".join(k))
+    if(n.count(i)==1):
+        s=s+i
+s=list(s)
+s.sort()
+s=str(s)
+s=s.replace(" ","")
+s=s.replace("'","")
+s=s.replace(",","")
+s=s.replace("[","")
+s=s.replace("]","")
+print(s)
