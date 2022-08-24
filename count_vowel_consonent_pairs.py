@@ -10,8 +10,3 @@ while l<k:
         l+=1
         k-=1
 print(c)
-'''
-here we cant keep not in p without taking co as they considered
-space also as a character so cases or failed
-if didnt understand ask me
-'''
