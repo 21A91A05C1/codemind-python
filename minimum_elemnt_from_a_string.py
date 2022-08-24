@@ -1,9 +1,7 @@
-n=list(map(str,input().split()))
-k=n[-1]
-p=min(k)
-#print(k)
-#print(p)
-if p.lower()  in k:
-    print(p.lower())
+n=input().split()
+s=n[len(n)-1]
+k=min(s)
+if k and k.lower() in s:
+    print(k.lower())
 else:
-    print(p)
+    print(k)
