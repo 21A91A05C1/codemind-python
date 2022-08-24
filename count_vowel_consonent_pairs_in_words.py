@@ -10,5 +10,3 @@ for i in n:
             l+=1
             k-=1
 print(c)
-    
-
