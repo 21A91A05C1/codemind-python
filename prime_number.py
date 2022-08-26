@@ -1,11 +1,9 @@
 n=int(input())
-i=1
-c=0
-while(i<=n):
-    if(n%i==0):
-        c=c+1
-    i=i+1
-if(c==2):
-    print("prime")
-else:
-    print("not a prime")
+def fun(n):
+    for i in range(2,n-1):
+        if n%i==0:
+            print("not a prime")
+            break
+    else:
+        print("prime")
+k=(fun(n))
