@@ -21,3 +21,8 @@ for i in n:
             t+=1
     l.append(p)
 print(*l)
+            
+
+
+
+  
