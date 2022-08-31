@@ -1,0 +1,20 @@
+n,m=map(int,input().split())
+n=str(n)
+#print(n)
+i=0
+k=''
+p=''
+while(i<m):
+    k=k+n[i]
+    #print(k)
+    i+=1
+#print(k)
+n=n[::-1]
+#print(n)
+i=0
+while(i<m):
+    p=p+n[i]
+    i+=1
+p=p[::-1]
+#print(p)
+print(abs(int(p)-int(k)))
