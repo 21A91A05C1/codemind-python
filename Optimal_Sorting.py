@@ -1,0 +1,11 @@
+t=int(input())
+while(t!=0):
+    n=int(input())
+    k=list(map(int,input().split()))
+    p=sorted(k)
+    if(k==sorted(k)):
+        print(0)
+    else:
+        k=sorted(k)
+        print(k[-1]-k[0])
+    t-=1
