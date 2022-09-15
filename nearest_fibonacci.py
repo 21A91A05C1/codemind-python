@@ -23,5 +23,3 @@ for i in range(len(k)):
     elif(abs(k[i]-n)==max):
         l.append(k[i])
 print(maxx,*l)
-
-        
