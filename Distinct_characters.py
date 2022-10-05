@@ -1,8 +1,11 @@
 n=input().lower()
-l=[]
-for i in n:
-    if n.count(i)==1:
-        if i!=" ":
-            l.append(i)
-l=sorted(l)
-print("".join(l))
+k=set(n)
+l=(sorted(k))
+#print(sorted(k))
+p=""
+for i in l:
+    if i==' ':
+        continue
+    else:
+        p=p+i
+print(p)
