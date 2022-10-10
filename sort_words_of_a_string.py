@@ -1,28 +1,23 @@
-n=input().split(" ")
-l=[]
+q=input()
+n=q.split()
+#print(n)
+p=[]
+m=""
 for i in n:
-    r=""
-    p=""
-    c=""
+    k=[]
     for j in i:
         if j.isalpha():
-            r=r+j
+            k.append(j)
+    k=sorted(k)
+    #print(k)
+    h=0
+    m=""
+    for o in range(len(i)):
+        if i[o].isalpha():
+            m=m+k[h]
+            h+=1
         else:
-            c=c+j
-    r=sorted(r)
-    k=0
-    t=0
-    for j in i:
-        if j.isalpha():
-            p=p+r[k]
-            k+=1
-        else:
-            p=p+c[t]
-            t+=1
-    l.append(p)
-print(*l)
+            m=m+i[o]
+    p.append(m)
+print(*p)
             
-
-
-
-  
