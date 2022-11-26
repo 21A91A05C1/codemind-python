@@ -1,0 +1,9 @@
+n=int(input())
+arr=list(map(int,input().split()))
+p=sum(arr)
+while(n!=0):
+    if(p%n==0):
+        print(n)
+        break
+    else:
+        n-=1
